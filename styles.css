@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/RomanNumerals.png); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #66152d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    flex-basis: 45%;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #66152d;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-info{
+    flex-basis: 50%;
+    margin-top: 20%;
+}
+
+.sub-title{
+    font-size: 36px;
+    font-weight: 600;
+    color:#fff;
+    text-align: center;
+}
+
+.header-info p{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header-input{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #66152d;
+    font-weight: 600;
+}
+
+.input-text{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.input-text label{
+    color: #66152d;
+    font-weight: 600;
+}
+
+.roman-output{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.roman-output span{
+    color: #66152d;
+    font-weight: 600;
+}
