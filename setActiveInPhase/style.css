@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+.container-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next line if there's not enough space */
+    justify-content: space-between; /* Distribute space between containers */
+    align-items: center; /* Vertically align items in the center */
+    margin: 10px; /* Add margin as needed */
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+.container label {
+    display: block; /* Display labels as block elements for proper spacing */
+    margin-bottom: 5px; /* Add margin between label and input */
+  }
+
+
+.container label {
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.container input {
+    padding: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.submit {
+    margin-top: 40px;
+    padding-left: 750px;
+    padding-right: 750px;
+    font-family: sans-serif;
+}
+
+.output-container {
+  display: flex;
+  justify-content: center; /* Horizontally center-align */
+  align-items: center; /* Vertically center-align */
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 40vh; /* Set height to 100% of the viewport height */
+}
+

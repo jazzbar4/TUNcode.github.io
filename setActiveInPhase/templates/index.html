@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana - command</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>setActiveInPhase</h1>
+    </header>
+
+
+    <form action="/submit" method="post">
+      <div class="container-row">
+        <div class="container">
+            <label for="analysis">Analysis:</label>
+            <input type="text" name="analysis" placeholder="Type here...">
+        </div>
+        <div class="container">
+            <label for="shape">Shape:</label>
+            <input type="text" name="shape" placeholder="Type here...">
+        </div>
+        <div class="container">
+            <label for="shape_sets">Shape sets:</label>
+            <input type="text" name="shape_sets" placeholder="Type here...">
+        </div>
+        <div class="container">
+            <label for="stages">Stages:</label>
+            <input type="text" name="stages" placeholder="Type here...">
+        </div>
+        <div class="container">
+            <label for="boolean">Boolean:</label>
+            <input type="text" name="boolean" placeholder="Type here...">
+        </div>
+      </div>
+      <div class="submit">
+      <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="output-container">
+      <pre>{{ result }}</pre>
+    </div>
+
+  </body>
+</html>
